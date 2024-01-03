@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form 2</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <br />
+        <label for="firstName">FirstName:</label>
+        <input
+          type="text"
+          name="first"
+          id="firstName"
+          placeholder="Fisrt Name.."
+        />
+        <br />
+        <br />
+
+        <label for="midName">MidName:</label>
+        <input type="text" name="mid" id="LastName" placeholder="Mid Name.." />
+        <br /><br />
+        <label for="LastName">LastName:</label>
+        <input
+          type="text"
+          name="last"
+          id="LastName"
+          placeholder="Last Name.."
+        />
+        <br />
+        <br />
+        <label for="courses">courses:</label>
+        <select name="course" id="courses">
+          <option value="">--Course--</option>
+          <option value="bca">BCA</option>
+          <option value="bba">BBA</option>
+          <option value="btech">B. Tech</option>
+          <option value="mba">MBA</option>
+          <option value="mca">MCA</option>
+          <option value="mtech">M.Tech</option>
+        </select>
+        <br /><br />
+        <label for="gender">Gender :</label>
+        <br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="Other" name="gender">
+        <label for="Other">Other</label>
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="datetime-local" name="dob" id="dob">
+        <br>
+        <br>
+        <label for="phone">Phone</label>
+        <input  name="" id="" placeholder="+91" style="width: 5%;" disabled>
+        
+        
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <br>
+        <label for="addresh">Addresh</label>
+        <br>
+        
+        <textarea name="addresh" id="addresh" cols="90" rows="4"></textarea>
+        <br> <br>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+
+        <br><br>
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <label for="re_password">Re-type Password :</label>
+        <input type="password" name="password" id="re_password">
+        <br><br>
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">Agree to terms and conditions</label>
+        <br><br>
+        <label for="attach">Choose File </label>
+        <input type="file">
+        <br><br>
+        <label for="attach">Choose Color </label>
+        <input type="color">
+        <br>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        
+
+      </fieldset>
+    </form>
+  </body>
+</html>
